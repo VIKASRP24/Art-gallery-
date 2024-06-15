@@ -5,38 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Vikas RP Portfolio</title>
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background: hsl(347, 58%, 95%);
-            color: rgb(132, 76, 88);
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            width: 60%;
-            margin: 50px auto;
-        }
-        .contact-form input, .contact-form textarea {
-            margin: 10px 0;
-            padding: 10px;
-            font-size: 18px;
-        }
-        .contact-form button {
-            padding: 10px 20px;
-            font-size: 18px;
-            background-color: rgb(195, 131, 145);
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background-color: rgb(132, 76, 88);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav id="navbar">
@@ -48,12 +17,21 @@
             <li><a href="contact.html" class='nav__link'>CONTACT</a></li>
         </ul>
     </nav>
-    <div class="contact-form">
-        <h2>Contact Me</h2>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
+    <div class="section1">
+        <h3 class="intro">Contact Me</h3>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <div class="footer">
+        <h3>Contact</h3>
+        <ul class="socials">
+            <li><a target="_blank" href="https://www.instagram.com/vikasrp_24?igsh=bXd2Y2UwaG5id251">Instagram</a></li>
+        </ul>
+        <p><i id="pin" class="fa-solid fa-location-dot"></i>MANDYA, KARNATAKA,  INDIA</p>
     </div>
 </body>
 </html>
